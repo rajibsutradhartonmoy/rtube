@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="py-5 bg-danger">
       <Link to="/" className="navbar-brand">
-        <h1 className="h3 text-center text-dark">React Tube</h1>
+        <h1 className="h3 text-center text-dark">rTube</h1>
       </Link>
 
       <form className="col-10 col-md-6 mx-auto" onSubmit={handleSubmit}>
